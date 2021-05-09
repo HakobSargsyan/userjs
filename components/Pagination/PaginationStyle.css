@@ -1,0 +1,42 @@
+.paginator-wrapper-top{
+    position: absolute;
+    top: 72px;
+    width: 150px;
+    height: 50px;
+    border: solid black 1px;
+    right: 140px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.paginator-wrapper-bottom{
+    position: absolute;
+    bottom: 72px;
+    width: 150px;
+    height: 50px;
+    border: solid black 1px;
+    right: 140px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.arrow {
+    border-width: 0 3px 3px 0 !important;
+    display: inline-block;
+    padding: 3px;
+    cursor: pointer;
+}
+
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+.left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+
+.paginator-text{
+    margin-top: 12px;
+}

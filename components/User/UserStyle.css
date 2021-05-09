@@ -1,0 +1,65 @@
+.user-gadget {
+    width: 280px;
+    height: 280px;
+    border: solid black 1px;
+    margin-top: 19px;
+    text-align: center;
+    display: flex;
+    flex-direction: column-reverse;
+    margin-left: 81px;
+    background-color: #26b9bd;
+    cursor: pointer;
+}
+
+.user-wrapper {
+    margin: 80px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.user-details-wrapper{
+    margin: 80px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+.user-avatar {
+    height: 185px;
+    width: 185px;
+    border: solid black 1px;
+    border-radius: 9px;
+    margin: 0 auto;
+}
+
+.user-avatar img {
+    width: 175px;
+    margin: 5px;
+}
+
+.user-info{
+    width: 70%;
+    height: 280px;
+    border: solid;
+    margin: 14px 80px 0px 95px;
+}
+
+.user-info p {
+    background-color: #26b9bd;
+    display: block;
+    margin: 12px 14px 8px;
+    padding: 1px;
+}
+
+.user-repos {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    padding: 9px;
+    margin-top: 21px;
+}
+
+.user-repos p {
+    padding: 5px;
+    background-color: #26b9bd;
+}
